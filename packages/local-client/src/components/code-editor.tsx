@@ -73,7 +73,7 @@ const CodeEditor: FC<CodeEditorProps> = ({ initialValue, onChange }) => {
           showUnused: false,
           folding: false,
           lineNumbersMinChars: 3,
-          fontSize: 16,
+          fontSize: 14,
           fontWeight: '600',
           scrollBeyondLastLine: false,
           fontFamily: 'jetBrains Mono, Consolas',

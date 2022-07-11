@@ -8,7 +8,7 @@ export const serveCommand = new Command()
   .description('Open a file for editing')
   .option('-p, --port <number>', 'port to run server on', '4005')
   .action(
-    async (filename: string = 'notebook.js', options: { port: string }) => {
+    async (filename: string = 'notebook.json', options: { port: string }) => {
       try {
         // cwd is where node process runs, dirname is directories if user provided nested paths
         const dir = path.join(process.cwd(), path.dirname(filename));

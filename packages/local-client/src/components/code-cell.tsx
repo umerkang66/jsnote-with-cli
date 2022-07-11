@@ -51,7 +51,7 @@ const CodeCell: FC<CodeCellProps> = ({ cell }) => {
     <Resizable direction="vertical">
       <div
         style={{
-          height: 'calc(160% - 10px)',
+          height: 'calc(100% - 10px)',
           display: 'flex',
           flexDirection: 'row',
         }}
