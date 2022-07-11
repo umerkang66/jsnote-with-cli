@@ -27,7 +27,9 @@ export const serve = (
     // PRODUCTION
     // resolve the path of shortcut folder to its original path, this is the absolute path of my machine to get to that index.html
     // if there is no more symbolic link, this will find the directory inside of our node_modules directory
-    const pkgPath = path.resolve('@jsnote-umer/local-client/build/index.html');
+    const pkgPath = require.resolve(
+      '@jsnote-umer/local-client/build/index.html'
+    );
 
     // we don't want entire path, we just want the directory of index.html file
     app.use(express.static(path.dirname(pkgPath)));
