@@ -1,0 +1,9 @@
+{
+  "name": "root",
+  "scripts": {
+    "start": "lerna run start --parallel"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
