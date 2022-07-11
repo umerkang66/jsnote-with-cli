@@ -1,6 +1,6 @@
 {
   "name": "@jsnote-umer/local-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,7 +24,7 @@
     "typescript": "^4.7.4"
   },
   "dependencies": {
-    "@jsnote-umer/local-client": "^1.0.0",
+    "@jsnote-umer/local-client": "^1.0.1",
     "cors": "^2.8.5",
     "express": "^4.18.1",
     "http-proxy-middleware": "^2.0.6"

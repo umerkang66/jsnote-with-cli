@@ -1,6 +1,6 @@
 {
   "name": "jsnote-umer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "publishConfig": {
     "access": "public"
@@ -17,10 +17,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@jsnote-umer/local-client": "^1.0.0"
+    "@jsnote-umer/local-client": "^1.0.1"
   },
   "devDependencies": {
-    "@jsnote-umer/local-api": "^1.0.0",
+    "@jsnote-umer/local-api": "^1.0.1",
     "@types/node": "^18.0.3",
     "commander": "^9.3.0",
     "esbuild": "0.8.26",
